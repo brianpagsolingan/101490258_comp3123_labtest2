@@ -12,3 +12,41 @@
   font-weight: 600;
   color: #1f2937;
 }
+
+.search-box{
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-box input{
+  padding: 10px 14px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  width: 260px;
+  outline: none;
+  background: white;
+  transition: 0.2s ease-in-out;
+}
+
+.search-box input:focus{
+  border-color: #2563eb;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.2);
+}
+
+.search-box button{
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  background: #2563eb;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.search-box button:hover{
+  background: #1e40af;
+}
