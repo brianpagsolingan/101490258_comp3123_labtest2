@@ -13,6 +13,7 @@
   color: #1f2937;
 }
 
+/* Search Box */
 .search-box{
   margin: 20px auto;
   display: flex;
@@ -49,4 +50,46 @@
 
 .search-box button:hover{
   background: #1e40af;
+}
+
+/* Weather Display */
+
+.weather-card{
+  background: white;
+  padding: 25px;
+  width: 320px;
+  margin: 20px auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* City Naem */
+
+.weather-card h2{
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+/* Weather Icon */
+
+.weather-card img{
+  width: 110px;
+  margin:10px 0;
+}
+
+/* Temperature */
+
+.weather-card h3{
+  font-size: 36px;
+  margin: 8px 0;
+  color: #111827;
+}
+
+/* Description */
+.weather-card p{
+  font-size: 18px;
+  color: #4b5563;
+  text-transform: capitalize;
 }
