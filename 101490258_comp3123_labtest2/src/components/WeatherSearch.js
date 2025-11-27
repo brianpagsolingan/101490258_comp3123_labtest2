@@ -1,0 +1,18 @@
+import React from "react";
+
+function WeatherSearch({ city, setCity, fetchWeather }) {
+    return(
+        <div className="search-box">
+            <input
+                type="text"
+                placeholder="Search city...."
+                value={city}
+                onChange={(e) => setCity(e.target.value)}
+                />
+            <button onClick={fetchWeather}>Search</button>
+        </div>
+    )
+}
+
+export default WeatherSearch;
+    
